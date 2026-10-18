@@ -522,23 +522,220 @@ nav{
     margin: 0;
 }
 
-.testi-arrow {
-    width: 55px;
-    height: 55px;
-    flex-shrink: 0;
-    border: none;
+.testimonial-arrow {
+   width: 50px;
+    height: 50px;
     border-radius: 50%;
-    color: #333;
+    border: none;
     background-color: #dfe8e2;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.2s ease-in-out;
+    color: #333333;
 }
 
-.testi-arrow:hover {
+.testimonial-arrow:hover {
     background-color: #3d6558;
     color: #fff;
     transform: scale(1.05);
 }
+
+.footer-section {
+    background-color: #fff;
+    padding: 0 12% 35px;
+    color: #6b6b6b;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.newslettter{
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.newsletter-content {
+    width: 65%;
+    position: relative;
+    z-index: 2;
+}
+
+.newsletter-content h3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #3d6558;
+    margin: 0 0 12px;
+}
+
+.newsletter-content h3 i {
+    font-size: 20px;
+    color: #c5ceca;
+}
+
+
+.newsletter-form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+
+.newsletter-form input {
+    flex: 1 1 0;
+    width: 0;
+    min-width: 0;
+    height: 50px;
+    padding: 0 12px;
+    border: 1px solid #d5dddf;
+    border-radius: 9px;
+    outline: none;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: 14px;
+}
+
+
+.newsletter-form input:focus {
+    border-color: #3d6558;
+}
+
+.newsletter-form button {
+  flex: 0 0 78px;
+    width: 78px;
+    height: 50px;
+    padding: 0;
+    border: none;
+    border-radius: 9px;
+    background-color: #3d6558;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background-color: #294b40;
+}
+
+.blue-chair {
+    position: absolute;
+    width: 340px;
+    height: 300px;
+    object-fit: contain;
+    right: 0;
+    top: -100px;
+    z-index: 1;
+}
+
+.main-footer {
+    display: grid;
+    grid-template-columns: 2.2fr 1fr 1fr 1fr 1.1fr;
+    gap: 35px;
+    padding: 35px 0 65px;
+}
+
+.footer-brand {
+    min-width: 0;
+}
+.footer-log0 {
+    display: inline-block;
+    color: #3d6558;
+    font-size: 35px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-bottom: 22px;
+
+}
+
+.footer-brand p {
+    font-size: 14px;
+    line-height: 2;
+    color: #6b6b6b;
+    margin: 0 0 25px;
+}
+
+.footer-socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-socials a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+    background-color: #dfe8e4;
+    color: #3d6558;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+}
+
+.footer-socials a:hover {
+    background-color: #3d6558;
+    color: #ffffff;
+    transform: translateY(-3px);
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding-top: 65px;
+}
+
+.footer-links a:hover {
+    color: #3d6558;
+}
+
+.bottom-footer {
+    border-top: 1 px solid #dfe8e2;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.bottom-footer p {
+    max-width: 65%;
+    font-size:  14px;
+    line-height: 1.8;
+    color: #777777;
+    margin: 0;
+}
+
+.bottom-footer p a {
+    color: #333333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-legal {
+    display: flex;
+    gap: 25px;
+    flex-shrink: 0;
+}
+
+.footer-legal a {
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer-legal a:hover {
+    color: #3d6558;
+}
+
