@@ -551,6 +551,7 @@ nav{
     align-items: center;
     justify-content: space-between;
     position: relative;
+    padding-top: 40px;
 }
 
 .newsletter-content {
@@ -562,15 +563,15 @@ nav{
 .newsletter-content h3{
     display: flex;
     align-items: center;
-    gap: 10px;
-    font-size: 15px;
+    gap: 15px;
+    font-size: 25px;
     font-weight: 600;
     color: #3d6558;
-    margin: 0 0 12px;
+    margin: 0 0 20px;
 }
 
 .newsletter-content h3 i {
-    font-size: 20px;
+    font-size: 30px;
     color: #c5ceca;
 }
 
@@ -644,7 +645,7 @@ nav{
 .footer-brand {
     min-width: 0;
 }
-.footer-log0 {
+.footer-logo {
     display: inline-block;
     color: #3d6558;
     font-size: 35px;
@@ -696,6 +697,13 @@ nav{
     padding-top: 65px;
 }
 
+.footer-links a {
+    font-size: 14px;
+    color: #333333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
 .footer-links a:hover {
     color: #3d6558;
 }
@@ -738,4 +746,80 @@ nav{
 .footer-legal a:hover {
     color: #3d6558;
 }
+
+
+.footer-section {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+
+/* aboutsection */
+.about {
+    background-color: #eff2f1;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 80px 12%;
+    box-sizing: border-box;
+}
+.about-next {
+    width: 50%;
+}
+
+.about-next h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 25px;
+}
+
+.about-next h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #222;
+    margin: 0 0 25px;
+}
+
+.about-next p {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #6b6b6b;
+    margin: 0 0 20px;
+}
+
+.about-next button {
+    margin-top: 10px;
+    padding: 14px 30px;
+    border: none;
+    border-radius: 30px;
+    background-color: #f9bf3b;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+.about-next button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.about-image {
+    width: 50%;
+    min-width: 0;
+}
+
+.about-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    border-radius: 20px;
+}
+
 
