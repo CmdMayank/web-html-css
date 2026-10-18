@@ -459,8 +459,9 @@ nav{
     text-decoration: none;
 }
 
+
 .testimonials {
-    background-color: #eff2f1;
+   background-color: #eff2f1;
     padding: 70px 10% 90px;
     text-align: center;
 }
@@ -470,6 +471,7 @@ nav{
     font-weight: 600;
     color: #2f2f2f;
     margin-bottom: 35px;
+    text-align: center;
 }
 
 .testimonial-content {
@@ -479,37 +481,48 @@ nav{
     gap: 35px;
 }
 
-.testi-quote{
+.testi-center {
+    max-width: 750px;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.testi-quote {
     font-size: 20px;
     line-height: 1.8;
     color: #6b6b6b;
     margin-bottom: 45px;
+    text-align: center;
 }
-
-
 
 .testi-avatar {
     width: 80px;
     height: 80px;
     object-fit: cover;
     object-position: center;
-    border-radius: 50px;
+    border-radius: 50%;
     padding: 0;
     display: block;
     margin: 0 auto 20px;
 }
-.testimonial-center h3 {
-    font-size: 14px;
+
+.testi-center h3 {
+    font-size: 16px;
     font-weight: 600;
     color: #222;
     margin-bottom: 5px;
+    text-align: center;
 }
-.testimonial-role {
-    font-size: 15px;
+
+.testi-role {
+    font-size: 14px;
     color: #777;
     line-height: 1.5;
+    text-align: center;
+    margin: 0;
 }
-.testimonial-arrow {
+
+.testi-arrow {
     width: 55px;
     height: 55px;
     flex-shrink: 0;
@@ -518,12 +531,14 @@ nav{
     color: #333;
     background-color: #dfe8e2;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease-in-out;
 }
-.testimonial-arrow :hover {
+
+.testi-arrow:hover {
     background-color: #3d6558;
-    color: wheat;
+    color: #fff;
     transform: scale(1.05);
-    
 }
-
-
